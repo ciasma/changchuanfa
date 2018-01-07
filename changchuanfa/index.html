@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header class="container">
+            <div class="row visible-md visible-lg">
+                <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                    <div class="carousel slide" id="theCarousel" data-interval="2000">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#theCarousel" data-slide-to="1"></li>
+                            <li data-target="#theCarousel" data-slide-to="2"></li>
+                            <li data-target="#theCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="Images/wenworth_smiles.jpg" alt="1" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Founder</h4>
+                                    <p>Wentworth Small</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/class_pose3.jpg" alt="2" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Class</h4>
+                                    <p>Training Class</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/wsmall_flying.jpg" alt="3" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Flying</h4>
+                                    <p>Flying High</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/pablo_Class.jpg" alt="4" class="img-responsive" />
+                                <div class="carousel-caption">
+                                    <h4>Student</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#theCarousel" class="carousel-control left" data-slide="prev"><span class="icon-prev"></span></a>
+                        <a href="#theCarousel" class="carousel-control right" data-slide="next"><span class="icon-next"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <div id="menu" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </button>
+                    <div id="logo">
+                        <a href='.'>
+                            <h4>ChangChuanFa</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav active">
+                            <a href=".">Home</a>
+                        </li>
+                        <li class="nav">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <script src="Scripts/Site.js"></script>
+</body>
+</html>
+
+
